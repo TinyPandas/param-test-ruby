@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.summary     = 'Parameterized unit tests for Ruby/ActiveSupport'
   s.description = 'Parameterized unit tests for Ruby/ActiveSupport'
 
-  s.add_runtime_dependency 'activesupport', '~> 5.0'
+  s.add_runtime_dependency 'activesupport'
   s.add_development_dependency 'rake'
 
   s.files         = `git ls-files`.split("\n")
